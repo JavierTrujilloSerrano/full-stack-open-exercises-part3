@@ -4,25 +4,25 @@ GET http://localhost:3001/api/persons
 GET http://localhost:3001/info
 
 ###
-GET http://localhost:3001/api/persons/68a5ea88d304eabfca566da0
+GET http://localhost:3001/api/persons/68ac9aa8eefeddd1f2f4e3ae
 
 ###
-DELETE http://localhost:3001/api/persons/68a4cb84c5ce906e450a0b22
+DELETE http://localhost:3001/api/persons/68ac9aa8eefeddd1f2f4e3ae
 
 ###
 POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "martin",
-    "number": "123-1234123123123531"
+    "name": "Antonio Pujante",
+    "number": "123-1234123"
 }
 
 ###
-PUT http://localhost:3001/api/persons/68a5ea88d304eabfca566da0
+PUT http://localhost:3001/api/persons/68ac9aa8eefeddd1f2f4e3ae
 Content-Type: application/json
 
 {
-    "name": "martin",
-    "number": "923-12345"
+    "name": "Antonio Pujante",
+    "number": "23-123456"
 }

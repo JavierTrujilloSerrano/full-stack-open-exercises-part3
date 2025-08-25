@@ -126,6 +126,9 @@ out
 .vscode-test
 launch.json
 
+# Files
+mongo.js
+
 # yarn v3
 .pnp.*
 .yarn/*
